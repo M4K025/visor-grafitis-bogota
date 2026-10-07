@@ -1,0 +1,230 @@
+[
+  {
+    "id": "g01",
+    "titulo": "Cóndor Andino",
+    "autor": "Colectivo Animal Urbano",
+    "localidad": "La Candelaria",
+    "direccion": "Calle 12C con Cra 2, Chorro de Quevedo",
+    "lat": 4.5969,
+    "lng": -74.0335,
+    "anio": 2023,
+    "descripcion": "Mural de gran formato del cóndor andino con paleta morada y dorada. Símbolo de libertad y memoria.",
+    "tags": [
+      "mural",
+      "naturaleza",
+      "turístico"
+    ],
+    "likesBase": 342,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=11",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g02",
+    "titulo": "Memoria Viva",
+    "autor": "Paola Rojas",
+    "localidad": "Santa Fe",
+    "direccion": "Calle 26 con Cra 7, Centro Internacional",
+    "lat": 4.6097,
+    "lng": -74.0683,
+    "anio": 2022,
+    "descripcion": "Retratos de lideresas sociales sobre fondo violeta. Parte de la ruta de memoria del centro.",
+    "tags": [
+      "retrato",
+      "memoria",
+      "calle 26"
+    ],
+    "likesBase": 278,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=12",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g03",
+    "titulo": "Distrito Grafiti - Faraón",
+    "autor": "Ecksone",
+    "localidad": "Puente Aranda",
+    "direccion": "Calle 26 con Cra 53, Distrito Grafiti",
+    "lat": 4.6351,
+    "lng": -74.1143,
+    "anio": 2024,
+    "descripcion": "Uno de los murales insignia del Distrito Grafiti, corredor a cielo abierto más grande de Bogotá.",
+    "tags": [
+      "distrito grafiti",
+      "gran formato",
+      "fotogénico"
+    ],
+    "likesBase": 512,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=13",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g04",
+    "titulo": "Aborigen Solar",
+    "autor": "Guache",
+    "localidad": "La Candelaria",
+    "direccion": "Cra 4 con Calle 17",
+    "lat": 4.5995,
+    "lng": -74.0358,
+    "anio": 2021,
+    "descripcion": "Estilo característico Guache: geometría indígena muisca en tonos violetas y tierra.",
+    "tags": [
+      "muisca",
+      "geométrico",
+      "autor reconocido"
+    ],
+    "likesBase": 421,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=14",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g05",
+    "titulo": "Mariposas de Paz",
+    "autor": "Lili Cuca",
+    "localidad": "Chapinero",
+    "direccion": "Calle 59 con Cra 13, Lourdes",
+    "lat": 4.6468,
+    "lng": -74.0624,
+    "anio": 2023,
+    "descripcion": "Enjambre de mariposas moradas que recorre toda la fachada. Punto favorito para fotos.",
+    "tags": [
+      "colorido",
+      "paz",
+      "chapinero"
+    ],
+    "likesBase": 195,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=15",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g06",
+    "titulo": "El Dorado Urbano",
+    "autor": "Zas Crew",
+    "localidad": "Teusaquillo",
+    "direccion": "Av. El Dorado con Cra 40, Corferias",
+    "lat": 4.6291,
+    "lng": -74.0904,
+    "anio": 2022,
+    "descripcion": "Homenaje al mito de El Dorado con estética hip-hop y letras 3D moradas.",
+    "tags": [
+      "letras 3d",
+      "hip-hop",
+      "mito"
+    ],
+    "likesBase": 267,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=16",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g07",
+    "titulo": "Polinizadores",
+    "autor": "Mugre Diamante",
+    "localidad": "Barrios Unidos",
+    "direccion": "Calle 72 con Cra 24, 12 de Octubre",
+    "lat": 4.6565,
+    "lng": -74.0712,
+    "anio": 2024,
+    "descripcion": "Abejas y colibríes gigantes promoviendo la biodiversidad urbana de Bogotá.",
+    "tags": [
+      "naturaleza",
+      "biodiversidad",
+      "nuevo"
+    ],
+    "likesBase": 143,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=17",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g08",
+    "titulo": "Resistencia Violeta",
+    "autor": "Colectiva Morada",
+    "localidad": "Los Mártires",
+    "direccion": "Av. Caracas con Calle 13",
+    "lat": 4.6042,
+    "lng": -74.0778,
+    "anio": 2021,
+    "descripcion": "Mural feminista en tonos morados, ícono de las marchas del centro de Bogotá.",
+    "tags": [
+      "feminismo",
+      "protesta",
+      "histórico"
+    ],
+    "likesBase": 389,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=18",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g09",
+    "titulo": "Biciruta Ancestral",
+    "autor": "Tóxico Téllez",
+    "localidad": "Engativá",
+    "direccion": "Calle 80 con Av. Boyacá, Minuto de Dios",
+    "lat": 4.6912,
+    "lng": -74.0945,
+    "anio": 2023,
+    "descripcion": "Ciclistas muiscas recorriendo un túnel morado de 40 metros junto a la ciclorruta.",
+    "tags": [
+      "bici",
+      "túnel",
+      "muisca"
+    ],
+    "likesBase": 178,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=19",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g10",
+    "titulo": "Selva de Monserrate",
+    "autor": "Stinkfish",
+    "localidad": "Santa Fe",
+    "direccion": "Cra 3 con Calle 21, Torres del Parque",
+    "lat": 4.6068,
+    "lng": -74.0621,
+    "anio": 2020,
+    "descripcion": "Fauna de los cerros orientales con el estilo de esténcil vibrante de Stinkfish.",
+    "tags": [
+      "stencil",
+      "cerros",
+      "fauna"
+    ],
+    "likesBase": 305,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=20",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g11",
+    "titulo": "Cumbia Cósmica",
+    "autor": "Ledania",
+    "localidad": "Chapinero",
+    "direccion": "Calle 64 con Cra 11",
+    "lat": 4.6543,
+    "lng": -74.0552,
+    "anio": 2024,
+    "descripcion": "Personaje femenino flotando entre planetas morados. Uno de los más Instagrameados del 2024.",
+    "tags": [
+      "cósmico",
+      "femenino",
+      "viral"
+    ],
+    "likesBase": 461,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=21",
+    "credito": "Foto referencial - LoremFlickr"
+  },
+  {
+    "id": "g12",
+    "titulo": "Río Bogotá Vivo",
+    "autor": "Pueblo Mural",
+    "localidad": "Fontibón",
+    "direccion": "Calle 17 con Cra 100, Zona Franca",
+    "lat": 4.6789,
+    "lng": -74.1412,
+    "anio": 2023,
+    "descripcion": "Mural comunitario de 60m sobre la recuperación del río Bogotá, pintado con vecinos.",
+    "tags": [
+      "comunitario",
+      "río",
+      "ecología"
+    ],
+    "likesBase": 122,
+    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=22",
+    "credito": "Foto referencial - LoremFlickr"
+  }
+]

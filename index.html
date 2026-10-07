@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="light dark" />
+<title>Grafitis Bogotá — Visor interactivo</title>
+<script>(function(){try{var t=localStorage.getItem('gb-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">G</div>
+    <div>
+      <h1>Grafitis Bogotá</h1>
+      <p>Visor interactivo · OpenStreetMap</p>
+    </div>
+  </div>
+  <div class="live">
+    <span class="dot"></span>
+    <span id="clock">--:--:--</span>
+    <span class="sep">·</span>
+    <span><strong id="stat-total">0</strong> puntos</span>
+    <span class="sep">·</span>
+    <span><strong id="stat-visible">0</strong> visibles</span>
+    <button id="theme" class="theme-btn" title="Cambiar modo">🌙</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="panel">
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input id="search" type="text" placeholder="Buscar por título, autor, tag…" autocomplete="off" />
+    </div>
+    <div id="chips" class="chips"></div>
+    <div class="panel-head">
+      <h2>Puntos destacados</h2>
+      <button id="locate" class="btn-ghost" title="Volver a Bogotá">◎ Bogotá</button>
+    </div>
+    <div id="list" class="cards"></div>
+    <footer class="panel-foot">Datos locales en <code>data/grafitis.json</code> · Tiles © OpenStreetMap</footer>
+  </aside>
+
+  <section class="map-wrap">
+    <div id="map"></div>
+
+    <div id="detail" class="detail hidden">
+      <div class="detail-photo-wrap">
+        <img id="d-foto" class="detail-photo" src="" alt="Foto del grafiti" loading="lazy" />
+        <span id="d-credito" class="photo-credit"></span>
+      </div>
+      <button id="detail-close" class="detail-close" aria-label="Cerrar">✕</button>
+      <div class="detail-body">
+        <div class="detail-kicker"><span id="d-localidad"></span> · <span id="d-anio"></span></div>
+        <h2 id="d-titulo"></h2>
+        <p class="detail-autor">por <strong id="d-autor"></strong></p>
+        <p class="detail-desc" id="d-desc"></p>
+        <p class="detail-dir">📍 <span id="d-dir"></span></p>
+        <div id="d-tags" class="tags"></div>
+        <div class="live-grid">
+          <div class="live-card"><small>👁 Ahora</small><strong id="d-now">0</strong></div>
+          <div class="live-card"><small>♥ Me gusta</small><strong id="d-likes">0</strong></div>
+          <div class="live-card"><small>⏱ Actualizado</small><strong id="d-updated">ahora</strong></div>
+        </div>
+        <div class="detail-actions">
+          <button id="d-center" class="btn-primary">Centrar en mapa</button>
+          <button id="d-like" class="btn-soft">♥ Me gusta</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="hint">Haz clic en un punto morado para ver info en tiempo real ✦</div>
+  </section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
