@@ -2,11 +2,9 @@
 const BOGOTA = [4.6486, -74.0758];
 const map = L.map('map').setView(BOGOTA, 12);
 
-const TILES = {
-  light: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; OpenStreetMap' }],
-  dark: ['https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19, attribution: '&copy; OpenStreetMap &copy; CARTO' }]
-};
-let tileLayer = L.tileLayer(...TILES.light).addTo(map);
+const TILES_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+const TILES_OPT = { maxZoom: 19, attribution: '&copy; OpenStreetMap' };
+const tileLayer = L.tileLayer(TILES_URL, TILES_OPT).addTo(map);
 
 // --- Modo oscuro ---
 const themeBtn = document.getElementById('theme');
@@ -15,8 +13,8 @@ function applyTheme(t) {
   document.documentElement.setAttribute('data-theme', t);
   try { localStorage.setItem('gb-theme', t); } catch (e) {}
   themeBtn.textContent = t === 'dark' ? '☀️' : '🌙';
-  map.removeLayer(tileLayer);
-  tileLayer = L.tileLayer(...TILES[t]).addTo(map);
+  // Oscurece los tiles OSM con CSS (sin depender de proveedores con API key)
+  document.getElementById('map').classList.toggle('dark-tiles', t === 'dark');
 }
 applyTheme(currentTheme());
 themeBtn.onclick = () => applyTheme(currentTheme() === 'dark' ? 'light' : 'dark');

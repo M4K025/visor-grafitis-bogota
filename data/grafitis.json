@@ -15,8 +15,8 @@
       "turístico"
     ],
     "likesBase": 342,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=11",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g01/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g02",
@@ -34,8 +34,8 @@
       "calle 26"
     ],
     "likesBase": 278,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=12",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g02/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g03",
@@ -53,8 +53,8 @@
       "fotogénico"
     ],
     "likesBase": 512,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=13",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g03/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g04",
@@ -72,8 +72,8 @@
       "autor reconocido"
     ],
     "likesBase": 421,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=14",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g04/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g05",
@@ -91,8 +91,8 @@
       "chapinero"
     ],
     "likesBase": 195,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=15",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g05/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g06",
@@ -110,8 +110,8 @@
       "mito"
     ],
     "likesBase": 267,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=16",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g06/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g07",
@@ -129,8 +129,8 @@
       "nuevo"
     ],
     "likesBase": 143,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=17",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g07/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g08",
@@ -148,8 +148,8 @@
       "histórico"
     ],
     "likesBase": 389,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=18",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g08/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g09",
@@ -167,8 +167,8 @@
       "muisca"
     ],
     "likesBase": 178,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=19",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g09/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g10",
@@ -186,8 +186,8 @@
       "fauna"
     ],
     "likesBase": 305,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=20",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g10/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g11",
@@ -205,8 +205,8 @@
       "viral"
     ],
     "likesBase": 461,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=21",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g11/800/500",
+    "credito": "Foto referencial"
   },
   {
     "id": "g12",
@@ -224,7 +224,7 @@
       "ecología"
     ],
     "likesBase": 122,
-    "foto": "https://loremflickr.com/800/500/graffiti,mural,street-art?lock=22",
-    "credito": "Foto referencial - LoremFlickr"
+    "foto": "https://picsum.photos/seed/bogota-g12/800/500",
+    "credito": "Foto referencial"
   }
 ]

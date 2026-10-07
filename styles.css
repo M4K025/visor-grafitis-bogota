@@ -73,7 +73,7 @@ body{margin:0;font-family:var(--fuente);background:var(--fondo);color:var(--text
 .theme-btn{border:1px solid var(--borde);background:#fff;color:var(--morado-osc);border-radius:999px;width:32px;height:32px;cursor:pointer;font-size:15px;line-height:1}
 [data-theme="dark"] .theme-btn{background:#241a40}
 .card-thumb{width:100%;height:110px;object-fit:cover;border-radius:12px;margin-bottom:9px;background:var(--morado-suave)}
-.detail-photo-wrap{position:relative;height:170px;background:var(--morado-suave)}
+.detail-photo-wrap{position:relative;height:170px;background:linear-gradient(120deg,#7c3aed,#a855f7,#5b21b6)}
 .detail-photo{width:100%;height:170px;object-fit:cover;display:block}
 .photo-credit{position:absolute;bottom:8px;right:10px;background:rgba(0,0,0,.6);color:#fff;font-size:10.5px;padding:3px 10px;border-radius:999px}
 .popup-photo{width:100%;height:90px;object-fit:cover;border-radius:10px;margin-bottom:6px}
@@ -85,6 +85,9 @@ body{margin:0;font-family:var(--fuente);background:var(--fondo);color:var(--text
 [data-theme="dark"] .detail-close{background:rgba(20,10,40,.85);color:#fff}
 [data-theme="dark"] .btn-soft{background:#241a40;color:#c4b5fd}
 .hint{position:absolute;top:14px;left:50%;transform:translateX(-50%);background:rgba(43,20,90,.88);color:#fff;font-size:12.5px;padding:8px 18px;border-radius:999px;z-index:700;backdrop-filter:blur(6px);white-space:nowrap}
+/* Modo oscuro del mapa: filtra los tiles OSM (no requiere API key) */
+#map.dark-tiles .leaflet-tile-pane{filter:invert(1) hue-rotate(190deg) brightness(.92) contrast(.92) saturate(.7)}
+#map.dark-tiles .leaflet-container{background:#0b0b12}
 @media(max-width:900px){
   body{height:auto}
   .layout{grid-template-columns:1fr}
